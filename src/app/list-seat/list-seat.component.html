@@ -1,0 +1,10 @@
+<div>
+    <button id="driver">Driver</button>
+    <div class="list">
+        <div (click)="onBookSeat(seat.SoGhe, seat.TrangThai)" class="seat-list" *ngFor="let seat of arrSeats">
+            <app-seat [SoGhe]="seat.SoGhe" [TrangThai]="seat.TrangThai"></app-seat>
+        </div>
+    </div>
+</div>
+
+

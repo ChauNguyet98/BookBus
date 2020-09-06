@@ -1,0 +1,32 @@
+.manage {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+h3 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+}
+
+.bookbus {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: azure;
+    width: 60%;
+    height: fit-content;
+}
+
+h1 {
+    text-align: center;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+} 

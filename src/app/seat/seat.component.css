@@ -1,0 +1,17 @@
+.seat {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.bookseat {
+    background-color: #00cc00;
+}
+
+.booknotseat {
+    background-color: #737373;
+}

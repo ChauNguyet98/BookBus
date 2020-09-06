@@ -1,0 +1,19 @@
+<div class="bookbus">
+    <h1>BOOK BUS TICKET</h1>
+    <div class="content">
+      <!-- <app-list-seat></app-list-seat>
+      <app-manage-seat></app-manage-seat> -->
+      <div class="float-child">
+        <app-list-seat (myClick)="onPushSeat($event)"></app-list-seat>
+      </div>
+      
+      <div class="float-child">
+        <div class="manage">
+            <h3>Seats are booked!</h3>
+            <div *ngFor="let number of arrSeatBooks">
+              <p>Seat number {{number}} is booked.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
